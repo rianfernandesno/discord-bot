@@ -9,11 +9,11 @@ repositories {
     mavenCentral()
 }
 
-
+val kordVersion: String = "0.17.0"
 
 dependencies {
     testImplementation(kotlin("test"))
-
+    implementation("dev.kord:kord-core:$kordVersion")
 }
 
 kotlin {
