@@ -10,10 +10,12 @@ repositories {
 }
 
 val kordVersion: String = "0.17.0"
+val slf4j: String = "2.0.17"
 
 dependencies {
     testImplementation(kotlin("test"))
     implementation("dev.kord:kord-core:$kordVersion")
+    implementation("org.slf4j:slf4j-simple:$slf4j")
 }
 
 kotlin {
